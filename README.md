@@ -46,10 +46,22 @@ Test parametreleri (Base URL, Timeout süreleri vb.) src/main/resources/config.p
 
 ## 🧪 Testleri Çalıştırma Komutları
 Test senaryoları, Cucumber etiketleri (tags) kullanılarak kategorize edilmiştir. Aşağıdaki Maven komutlarını kullanarak testleri başlatabilirsiniz:
-1.  TÜM UI TESTLERİ -- mvn test -Dcucumber.filter.tags="@UI_Execution"
+1.  TÜM UI TESTLERİ
+    ```bash
+    mvn test -Dcucumber.filter.tags="@UI_Execution"
+    ```
 2.  KRİTİK YOL (CASE 3) -- mvn test -Dcucumber.filter.tags="@UI_CriticalPath"
+       ```bash
+    mvn test -Dcucumber.filter.tags="@UI_CriticalPath"
+    ```
 3.  API TESTLERİ (CRUD) -- mvn test -Dsurefire.includes=runners.ApiTestRunner
+     ```bash
+    mvn test -Dsurefire.includes=runners.ApiTestRunner
+    ```
 4.  VERİ ANALİZİ (PART 4) -- mvn test -Dcucumber.filter.tags="@Part4_Analysis"
+    ```bash
+    mvn test -Dcucumber.filter.tags="@Part4_Analysis"
+    ```
 
 ## 📊 Veri Analizi ve Raporlama Sonuçları
 I. Veri Analizi Çıktıları (Part 4)
@@ -61,7 +73,9 @@ Part 4 senaryosu çalıştırıldığında, sistem flight_data_*.csv dosyası ol
 
 II. Test Raporları (Allure)
 Testler tamamlandıktan sonra detaylı HTML raporunu görüntülemek için:
-mvn allure:serve
+    ```bash
+    mvn allure:serve
+    ```
 
 ## ⚡ Performans Testi (Part 3)
 Uçuş arama modülünün yük altındaki davranışını simüle etmek için k6 kullanılmıştır.
