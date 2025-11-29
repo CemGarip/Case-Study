@@ -89,12 +89,12 @@ Başarı Kriteri: Hata Oranı < %1; P(90) Yanıt Süresi < 3000ms.
     ```
 
 ## 🏗️ Teknik Mimari Özellikleri
-Page Object Model (POM): [@FindBy anotasyonları ve Page Factory ile modern, bakımı kolay yapı.]
+* Page Object Model (POM): [@FindBy anotasyonları ve Page Factory ile modern, bakımı kolay yapı.]
 
-WaitUtils: Thread.sleep yerine Explicit Waits kullanan gelişmiş bekleme yönetimi.
+* WaitUtils: Thread.sleep yerine Explicit Waits kullanan gelişmiş bekleme yönetimi.
 
-Scenario Outline: Farklı test verileri (Ankara/Lefkoşa) için tek bir feature dosyası üzerinden veri odaklı (Data-Driven) test yaklaşımı.
+* Scenario Outline: Farklı test verileri (Ankara/Lefkoşa) için tek bir feature dosyası üzerinden veri odaklı (Data-Driven) test yaklaşımı.
 
-Robust Locator Strategy: Dinamik elementler ve iframe/popup yönetimi için güçlendirilmiş XPath ve CSS seçiciler.
+* Robust Locator Strategy: Dinamik elementler ve iframe/popup yönetimi için güçlendirilmiş XPath ve CSS seçiciler.
 
-Rest Assured Framework: Request/Response Spec Builder kullanımı ve JSON Schema Validation entegrasyonu.
+* Rest Assured Framework: Request/Response Spec Builder kullanımı ve JSON Schema Validation entegrasyonu.
