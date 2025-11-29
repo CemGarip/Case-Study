@@ -6,13 +6,13 @@ Bu proje, Enuygun.com uçuş arama modülü ve Petstore API servisleri için gel
 ## 🎯 Proje Kapsamı ve Hedefler
 Proje, teknik değerlendirme gereksinimlerini karşılamak üzere 4 ana bölümde kurgulanmıştır:
 
-Part 1: UI Otomasyonu: Uçuş arama, filtreleme (saat/havayolu) ve fiyat sıralama doğrulama testleri.
+* **Part 1: UI Otomasyonu: Uçuş arama, filtreleme (saat/havayolu) ve fiyat sıralama doğrulama testleri.
 
-Part 2: API Testleri: Petstore API üzerinde uçtan uca CRUD (Create, Read, Update, Delete) işlemleri ve JSON Şema doğrulaması.
+* **Part 2: API Testleri: Petstore API üzerinde uçtan uca CRUD (Create, Read, Update, Delete) işlemleri ve JSON Şema doğrulaması.
 
-Part 3: Performans Testi: Kritik arama modülü için k6 kullanılarak oluşturulmuş yük testi simülasyonu.
+* **Part 3: Performans Testi: Kritik arama modülü için k6 kullanılarak oluşturulmuş yük testi simülasyonu.
 
-Part 4: Veri Analizi: UI üzerinden çekilen gerçek zamanlı uçuş verilerinin (CSV) analizi ve "En Uygun Maliyetli Uçuş" algoritması.
+* **Part 4: Veri Analizi: UI üzerinden çekilen gerçek zamanlı uçuş verilerinin (CSV) analizi ve "En Uygun Maliyetli Uçuş" algoritması.
 
 ## 🛠️ Kurulum Ön Şartları (Prerequisites)
 Projeyi yerel ortamınızda çalıştırmadan önce aşağıdaki araçların kurulu olduğundan emin olun:
