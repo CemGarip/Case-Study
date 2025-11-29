@@ -31,16 +31,16 @@ Allure Commandline (Raporları görüntülemek için opsiyonel)
 Terminali açın ve aşağıdaki adımları izleyerek projeyi kurun:
 
 1. Projeyi Klonlayın
-Bash
-
-git clone [GITHUB REPO ADRESİNİZ]
-cd FlightProjectUI
+    ```bash
+    git clone [GITHUB REPO ADRESİNİZ]
+    cd FlightProjectUI
+    ```
 2. Bağımlılıkları Yükleyin
 Projenin derlenmesi ve gerekli kütüphanelerin (Selenium, Cucumber, RestAssured vb.) indirilmesi için:
 
-Bash
-
-mvn clean install -DskipTests
+    ```bash
+    mvn clean install -DskipTests
+    ```
 3. Yapılandırma
 Test parametreleri (Base URL, Timeout süreleri vb.) src/main/resources/config.properties dosyasında yönetilmektedir.
 
@@ -69,8 +69,10 @@ Senaryo: 1 Sanal Kullanıcı (VU), 60 saniye boyunca sürekli istek gönderir.
 Başarı Kriteri: Hata Oranı < %1; P(90) Yanıt Süresi < 3000ms.
 
 Çalıştırma Komutu:
-cd performance-tests
-k6 run enuygun_search.js
+    ```bash
+    cd performance-tests
+    k6 run enuygun_search.js
+    ```
 
 ## 🏗️ Teknik Mimari Özellikleri
 Page Object Model (POM): [@FindBy anotasyonları ve Page Factory ile modern, bakımı kolay yapı.]
